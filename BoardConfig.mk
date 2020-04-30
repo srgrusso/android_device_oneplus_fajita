@@ -31,7 +31,9 @@ TARGET_KERNEL_CONFIG := enchilada_defconfig
 # GAPPS
 TARGET_GAPPS_OVERRIDE += \
     GoogleCamera \
-    GoogleDialer
+    GoogleDialer \
+    Photos \
+    NfcNci
 
 # inherit from the proprietary version
 -include vendor/oneplus/fajita/BoardConfigVendor.mk
