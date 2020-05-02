@@ -30,7 +30,6 @@ TARGET_KERNEL_CONFIG := enchilada_defconfig
 
 # GAPPS
 TARGET_GAPPS_OVERRIDE += \
-    GoogleCamera \
     GoogleDialer \
     Photos \
     NfcNci
