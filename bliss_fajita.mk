@@ -24,6 +24,9 @@ $(call inherit-product, device/oneplus/fajita/device.mk)
 # Inherit some common BlissRoms stuff.
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
+# Inherit PixelGapps
+$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
+
 PRODUCT_NAME := bliss_fajita
 PRODUCT_DEVICE := fajita
 PRODUCT_MANUFACTURER := OnePlus
