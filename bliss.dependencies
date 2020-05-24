@@ -13,9 +13,9 @@
  },
   {
    "remote":      "github",
-   "repository":  "BlissRoms-Devices/proprietary_vendor_oneplus",
+   "repository":  "srgrusso/proprietary_vendor_oneplus",
    "target_path": "vendor/oneplus",
-   "revision":    "q2"
+   "revision":    "bliss-q"
   },
    {
    "remote":      "github",
