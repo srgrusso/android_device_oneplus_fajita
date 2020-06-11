@@ -29,7 +29,7 @@ TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.oneplus_fajit
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := bliss_defconfig
+TARGET_KERNEL_CONFIG := kronic_defconfig
 TARGET_PREBUILT_RECOVERY_RAMDISK := $(DEVICE_PATH)/ramdisk-recovery.zip
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
