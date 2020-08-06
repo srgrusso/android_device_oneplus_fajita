@@ -27,8 +27,10 @@ $(call inherit-product, device/oneplus/fajita/device.mk)
 # Inherit some common BlissRoms stuff.
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
-# Inherit PixelGapps
-$(call inherit-product-if-exists, vendor/gapps/gapps.mk)
+# Inherit PixelGApps
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
+TARGET_GAPPS_ARCH := arm64
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 PRODUCT_NAME := bliss_fajita
 PRODUCT_DEVICE := fajita
