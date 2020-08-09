@@ -34,10 +34,5 @@ TARGET_PREBUILT_RECOVERY_RAMDISK := $(DEVICE_PATH)/ramdisk-recovery.zip
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 TARGET_KERNEL_CLANG_VERSION := 6443078
 
-#GAPPS 
-TARGET_GAPPS_OVERRIDE += \
-    PixelLiveWallpaperPrebuilt \
-    NexusWallpapersStubPrebuilt2019
-    
 # inherit from the proprietary version
 -include vendor/oneplus/fajita/BoardConfigVendor.mk
