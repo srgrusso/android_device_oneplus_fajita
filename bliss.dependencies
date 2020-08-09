@@ -19,9 +19,9 @@
   },
    {
    "remote":      "github",
-   "repository":  "BootleggersROM-Devices/vendor_oneplus_camera",
+   "repository":  "BlissRoms-Devices/vendor_oneplus_camera",
    "target_path": "vendor/oneplus/camera",
-   "revision":    "ten"
+   "revision":    "q"
   },
    {
    "remote":      "github",
