@@ -21,13 +21,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from fajita device
 $(call inherit-product, device/oneplus/fajita/device.mk)
 
-# Inherit some common SyberiaOS stuff.
-$(call inherit-product, vendor/syberia/common.mk)
+# Inherit some common Bliss stuff.
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
-# Syberia OS Stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 
-PRODUCT_NAME := syberia_fajita
+PRODUCT_NAME := bliss_fajita
 PRODUCT_DEVICE := fajita
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus

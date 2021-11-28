@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/syberia_fajita.mk
+    $(LOCAL_DIR)/bliss_fajita.mk
 
 COMMON_LUNCH_CHOICES := \
-    syberia_fajita-user \
-    syberia_fajita-userdebug \
-    syberia_fajita-eng
+    bliss_fajita-user \
+    bliss_fajita-userdebug \
+    bliss_fajita-eng
