@@ -16,8 +16,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/bliss_fajita.mk
-
-COMMON_LUNCH_CHOICES := \
-    bliss_fajita-user \
-    bliss_fajita-userdebug \
-    bliss_fajita-eng
