@@ -18,7 +18,6 @@ module = ExtractUtilsModule(
     'fajita',
     'oneplus',
     namespace_imports=namespace_imports,
-    check_elf=True,
     add_firmware_proprietary_file=True,
 )
 
